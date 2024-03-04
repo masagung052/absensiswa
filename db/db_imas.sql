@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Nov 2023 pada 08.26
+-- Waktu pembuatan: 04 Mar 2024 pada 06.19
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.2.0
 
@@ -316,7 +316,16 @@ INSERT INTO `_logabsensi` (`id_presensi`, `id_mengajar`, `id_siswa`, `tgl_absen`
 (37, 26, 8, '2023-11-30', 'H', '1'),
 (38, 27, 6, '2023-11-30', 'H', '1'),
 (39, 27, 7, '2023-11-30', 'H', '1'),
-(40, 27, 8, '2023-11-30', 'I', '1');
+(40, 27, 8, '2023-11-30', 'I', '1'),
+(41, 27, 6, '2023-10-30', 'H', '2'),
+(42, 27, 7, '2023-10-30', 'H', '2'),
+(43, 27, 8, '2023-10-30', 'H', '2'),
+(44, 27, 6, '2023-09-27', 'H', '3'),
+(45, 27, 7, '2023-09-27', 'H', '3'),
+(46, 27, 8, '2023-09-27', 'I', '3'),
+(47, 27, 6, '2023-12-12', 'I', '4'),
+(48, 27, 7, '2023-12-12', 'I', '4'),
+(49, 27, 8, '2023-12-12', 'I', '4');
 
 --
 -- Indexes for dumped tables
@@ -459,7 +468,7 @@ ALTER TABLE `tb_walikelas`
 -- AUTO_INCREMENT untuk tabel `_logabsensi`
 --
 ALTER TABLE `_logabsensi`
-  MODIFY `id_presensi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id_presensi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
